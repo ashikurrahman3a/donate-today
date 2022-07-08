@@ -1,4 +1,50 @@
- h1 {
-     font-size: 40px;
-     color: rgb(245, 245, 245);
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, .5)) url(images/donation5.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.top {
+    width: 100px;
+    height: 100px;
+    background: rgba(212, 237, 100, 0.904);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+
+}
+
+.logo_area img {
+    width: 100px;
+}
+
+.logo_area a h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-left: 15px;
+}
+
+.menu_area {
+    width: 20%;
+}
+
+.menu_area ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
